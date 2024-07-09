@@ -22,9 +22,8 @@ trackplot_theme <- function(base_size=11) {
     strip.background = ggplot2::element_blank(),
     strip.placement = "outside",
     axis.title.y.left = ggplot2::element_text(size=ggplot2::rel(1)),
-    legend.direction="horizontal", 
-    legend.title.position = "top"
-  )
+    legend.direction="horizontal"
+   )
 }
 
 wrap_trackplot <- function(plot, height=NULL, takes_sideplot=FALSE) {
